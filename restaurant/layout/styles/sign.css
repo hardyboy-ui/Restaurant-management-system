@@ -1,0 +1,66 @@
+.new
+{
+width:500px;
+height:1100px;
+color:white;
+top: 90%;
+left: 50%;
+padding: 60px 30px;
+position: absolute;
+transform: translate(-50%,-50%);
+font-size:18px;
+box-sizing: border-box;
+box-shadow: 10px 10px 60px;
+}
+h1
+{
+ margin:0;
+ padding:-15px;
+ margin-left:35%;
+ margin-right:35%;
+ font-weight:650;
+ font-size:30px;
+ color:black;
+ text-align:center;
+ margin-bottom:10%;
+ font-family: New Roman;
+ border:1px solid transparent;
+ background-color: #0009;
+}
+.new input
+{ 
+width: 100%%;
+ margin-bottom: 10px;
+}
+.new input[type=text], .new input[type=password]
+{
+border: none;
+border-bottom: 2px solid black;
+background: transparent;
+outline: none;
+font-size:17px;
+font-weight:1000;
+font-color:white;
+}
+.new input[type=submit]
+{
+margin:0;
+ padding:-15px;
+ margin-left:35%;
+ margin-right:35%;
+ text-align:center;
+ margin-bottom:10%;
+border:none;
+outline:none;
+height:40px;
+width:150px;
+background:;
+color:black;
+font-size:17px;
+font-weight:650;
+}
+.new input[type=submit]:hover
+{
+background-color:black;
+color:white;
+}

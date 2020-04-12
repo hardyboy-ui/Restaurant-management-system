@@ -1,0 +1,125 @@
+<!Doctype html>
+<html>
+<head> 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="layout/styles/sign.css" />
+<style>
+body
+{
+  
+  background-image:url('images/ll.jpg');
+  background-attachment:fixed;
+  background-size:cover;
+  background-color: rgba(0,0,0,0.8);
+}
+#a
+{
+ margin:0;
+ padding:-15px;
+ margin-left:20%;
+ margin-right:20%;
+ font-weight:bold;
+ font-size:30px;
+ color:white;
+ text-align:center;
+ margin-bottom:10%;
+ font-family:;
+ border:1px solid transparent;
+ background-color: #0009;
+}
+#b
+;
+}
+#c
+{
+background:#0003;
+border-color:black;
+border-width:2px;
+color:black;
+}
+#d
+{
+background:#0003;
+border-color:black;
+border-width:2px;
+color:white;
+margin-top:10px;
+}
+#e
+{
+background:#0003;
+border-color:black;
+border-width:2px;
+color:white;
+}
+
+</style>
+<script>
+function check()
+{
+var p=f.pass.value;
+var cp=f.cpass.value;
+if(p==cp)
+{
+alert("profile updated sucessfully!!");
+}
+else
+{
+alert("password mismatch!!please retype");
+}
+}
+</script>
+</head>
+<body>
+       
+         <div class="new">
+         <h1 id="a">SIGN UP</h1>
+	 <form action="index.html" name="f" onsubmit="check()">
+          Name:</br>
+          <input type="text" placeholder="First Name" required></br>
+          <input type="text" placeholder="Last Name" required></br>
+          Phone Number:<input type="text" placeholder="123456789" required></br>
+          EMAIL ID:<input type="Email" required id="b"></br>
+          Date Of Birth:<input type="date" id="e"></br>
+          Gender:<input type="radio" name="p"/>Male<input type="radio"name="p"/>Female</br>
+          Select State:<select id="c">
+                     <option>ANDHRA PRADESH</option>
+                     <option>ARUNACHAL PRADESH</option>
+                     <option>ASSAM</option>
+                     <option>BIHAR</option>
+                     <option>CHHATTISGARH</option>
+                     <option>GOA</option>
+                     <option>GUJARAT</option>
+                     <option>HARYANA</option>
+                     <option>HIMACHAL PRADESH</option>
+                     <option>JAMMU AND KASHMIR</option>
+                     <option>JHARKHAND</option>
+                     <option>KARNATAKA</option>
+                     <option>KERALA</option>
+                     <option>MADHYA PRADESH</option>
+                     <option>MAHARASHTRA</option>
+                     <option>MANIPUR</option>
+                     <option>MEGHALAYA</option>
+                     <option>MIZORAM</option>
+                     <option>NAGALAND</option>
+                     <option>ODISHA</option>
+                     <option>PUNJAB</option>
+                     <option>RAJASTHAN</option>
+	             <option>SIKKIM</option>
+                     <option>TAMIL NADU</option>
+                     <option>TELANGANA</option>
+	             <option>TRIPURA</option>
+		     <option>UTTAR PRADESH</option>
+		     <option>UTTARAKHAND</option>		
+		     <option>WEST BENGAL</option>
+             </select><br/>
+
+ 	Enter Address:<textarea row=10 cols=35 id="d">Enter the address</textarea><br/>
+        Create Username:<input type="text" placeholder="Username" maxlength="35" required/><br/>
+        Set Password:<input type="password" placeholder="Password" name="pass" required/><br/>
+        Confirm Password:<input type="password" placeholder="Comfirm Password" name="cpass" required>
+       <input type="submit" value="Create Account"> 
+        </div>
+	<div id="out"> </div>	
+</body>
+</html>
